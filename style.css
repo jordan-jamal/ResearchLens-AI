@@ -1,0 +1,422 @@
+.main {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.block-container {
+    max-width: 1150px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+[data-testid="stSidebar"] {
+    display: none !important;
+}
+
+[data-testid="collapsedControl"] {
+    display: none !important;
+}
+
+.research-header {
+    padding: 2rem 0 1rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.research-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 750;
+    letter-spacing: 1.2px;
+    opacity: 0.65;
+    margin-bottom: 1rem;
+}
+
+.research-title {
+    font-size: 3.4rem;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.05;
+}
+
+.research-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.65;
+    margin-top: 0.8rem;
+    max-width: 650px;
+}
+
+.intro-card {
+    border-left: 3px solid rgba(120, 120, 120, 0.5);
+    padding-left: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.intro-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    opacity: 0.75;
+    max-width: 850px;
+}
+
+.section-title {
+    font-size: 1.45rem;
+    font-weight: 750;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+
+.summary-heading {
+    font-size: 2.1rem;
+    font-weight: 780;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.upload-description {
+    font-size: 0.95rem;
+    opacity: 0.65;
+    margin-bottom: 1rem;
+}
+
+[data-testid="stMetric"] {
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    border-radius: 16px;
+    padding: 1.1rem 1.2rem;
+    background:
+        rgba(128, 128, 128, 0.035);
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 0.82rem;
+    opacity: 0.65;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 1.7rem;
+    font-weight: 750;
+}
+
+.file-info {
+    font-size: 0.85rem;
+    opacity: 0.6;
+    margin-top: 0.7rem;
+}
+
+.stButton > button {
+    border-radius: 12px !important;
+    min-height: 3rem;
+    font-weight: 650;
+    font-size: 0.98rem;
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+
+.stButton > button:hover {
+    transform:
+        translateY(-1px);
+}
+
+.claim-card {
+    border:1px solid rgba(128, 128, 128, 0.20);
+    border-radius: 16px;
+    padding: 1.3rem 1.4rem;
+    margin:1rem 0;
+    background:rgba(128, 128, 128, 0.025);
+    transition:transform 0.2s ease, border-color 0.2s ease;
+}
+
+.claim-card:hover {
+    transform:translateY(-2px);
+    border-color:rgba(128, 128, 128, 0.45);
+}
+
+.claim-id {
+    font-size: 0.72rem;
+    font-weight: 750;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.claim-text {
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-top: 0.6rem;
+}
+
+.verification-status {
+    display: inline-block;
+    margin-top: 1rem;
+    padding:0.35rem 0.7rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 750;
+    letter-spacing: 0.5px;
+    border:1px solid rgba(128, 128, 128, 0.25);
+}
+
+.supported {
+    opacity: 0.9;
+}
+
+.partially-supported {
+    opacity: 0.75;
+}
+
+.not-supported {
+    opacity: 0.9;
+}
+
+.unclear {
+    opacity: 0.65;
+}
+
+.verification-reason {
+    font-size: 0.92rem;
+    opacity: 0.72;
+    line-height: 1.6;
+    margin:0.9rem 0;
+}
+
+.evidence-box {
+    padding:1rem;
+    border-radius:12px;
+    background:rgba(128, 128, 128, 0.06);
+    line-height:1.65;
+    font-size:0.9rem;
+}
+
+.faithfulness-score-card {
+    padding:0.5rem 0;
+}
+
+[data-testid="stExpander"] {
+    border-radius: 14px !important;
+    border:1px solid rgba(128, 128, 128, 0.18);
+}
+
+[data-testid="stFileUploader"] {
+    border-radius: 16px;
+}
+
+[data-testid="stProgress"] {
+    margin-top:1rem;
+}
+
+hr {
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
+    opacity:0.35;
+}
+
+textarea {
+    border-radius:12px !important;
+}
+
+/* ── Citation Extractor ─────────────────────────── */
+.citation-count {
+    font-size: 0.82rem;
+    opacity: 0.55;
+    margin-bottom: 1rem;
+    margin-top: 0.4rem;
+}
+
+.citation-card {
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    border-radius: 14px;
+    padding: 1rem 1.2rem;
+    margin: 0.6rem 0;
+    background: rgba(128, 128, 128, 0.025);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.citation-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(128, 128, 128, 0.42);
+}
+
+.citation-index {
+    font-size: 0.68rem;
+    font-weight: 750;
+    letter-spacing: 1px;
+    opacity: 0.45;
+    text-transform: uppercase;
+    margin-bottom: 0.35rem;
+}
+
+.citation-title {
+    font-size: 0.98rem;
+    font-weight: 650;
+    line-height: 1.5;
+    margin-bottom: 0.3rem;
+}
+
+.citation-authors {
+    font-size: 0.88rem;
+    opacity: 0.72;
+    line-height: 1.5;
+}
+
+.citation-venue {
+    font-size: 0.82rem;
+    opacity: 0.55;
+    margin-top: 0.25rem;
+    font-style: italic;
+}
+
+.citation-link {
+    display: inline-block;
+    margin-top: 0.55rem;
+    font-size: 0.82rem;
+    opacity: 0.75;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(128,128,128,0.4);
+    transition: opacity 0.15s ease;
+}
+
+.citation-link:hover {
+    opacity: 1;
+}
+
+/* ── Technical Glossary ─────────────────────────── */
+.glossary-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0.75rem 0 0.5rem 0;
+}
+
+.glossary-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.28rem 0.7rem;
+    border-radius: 20px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    background: rgba(128, 128, 128, 0.05);
+}
+
+.pill-count {
+    opacity: 0.6;
+    font-size: 0.7rem;
+}
+
+.glossary-count {
+    font-size: 0.82rem;
+    opacity: 0.55;
+    margin-bottom: 0.85rem;
+    margin-top: 0.35rem;
+}
+
+.glossary-card {
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    border-radius: 14px;
+    padding: 1rem 1.2rem;
+    margin: 0.75rem 0;
+    background: rgba(128, 128, 128, 0.025);
+    overflow-wrap: anywhere;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.glossary-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(128, 128, 128, 0.42);
+}
+
+.glossary-card-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.glossary-term-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.5rem;
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+.glossary-term {
+    font-size: 1.02rem;
+    font-weight: 750;
+}
+
+.glossary-full-form {
+    font-size: 0.85rem;
+    opacity: 0.65;
+}
+
+.glossary-category {
+    flex-shrink: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    padding: 0.22rem 0.65rem;
+    border-radius: 12px;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    background: rgba(128, 128, 128, 0.08);
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+.glossary-definition {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    opacity: 0.88;
+}
+
+.glossary-first-used {
+    margin-top: 0.6rem;
+    padding: 0.55rem 0.8rem;
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.055);
+    font-size: 0.82rem;
+    opacity: 0.72;
+    font-style: italic;
+}
+
+.glossary-first-used-label {
+    font-style: normal;
+    font-weight: 650;
+    opacity: 0.85;
+}
+
+/* ── Footer ─────────────────────────────────────── */
+.footer {
+    text-align:center;
+    opacity:0.45;
+    font-size:0.82rem;
+    padding:3rem 0 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .block-container {
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .research-title {
+        font-size:2.4rem;
+        letter-spacing:-1px;
+    }
+    .research-subtitle {
+        font-size:0.95rem;
+    }
+    .section-title {
+        font-size:1.3rem;
+    }
+    .summary-heading {
+        font-size:1.7rem;
+    }
+}
